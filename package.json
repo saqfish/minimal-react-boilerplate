@@ -1,0 +1,30 @@
+{
+  "name": "minimal-react-boilerplate",
+  "version": "0.0.1",
+  "description": "A minimal react boilerplate with webpack & babel",
+  "scripts": {
+    "build": "webpack -c webpack.config.js",
+    "start": "npx serve static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saqfish/minimal-react-boilerplate.git"
+  },
+  "author": "saqfish",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/saqfish/minimal-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/saqfish/minimal-react-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
