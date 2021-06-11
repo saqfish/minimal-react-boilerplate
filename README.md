@@ -1,4 +1,4 @@
-A minimal `react` boiler-plate with `webpack` & `bable`
+A minimal `react` boiler-plate with `webpack` & `babel`
 
 ## Install
 
