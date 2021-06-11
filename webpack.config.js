@@ -18,5 +18,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "./static"),
     filename: "bundle.js",
+    clean: true,
   },
 };
